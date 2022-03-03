@@ -1,0 +1,19 @@
+#content .widget h3 a, h2 a, h1 a {
+    font-family: Arial, Helvetica, sans-serif ;
+    color: #000;
+    text-decoration: none;
+    padding: 5px 0px 0px auto;
+}
+#content .widget {
+    float: right;
+    background-color: blanchedalmond;
+    width: 200px;
+    margin: 10px 0px 30px 10px;
+    border: 1px solid #fff;
+    border-radius: 15%;
+    padding: 5px 5px 15px 5px;
+}
+
+#content .widget h1 a {
+    text-align: center;
+}
