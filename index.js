@@ -1,7 +1,7 @@
 $.ajax({
     type: 'POST',
     dataType: "json",
-    url:'test.php',
+    url:'widget.php',
     data:
     success: function(data)
     {
