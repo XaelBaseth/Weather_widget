@@ -8,15 +8,18 @@
     <title>Weather Widget</title>
 </head>
 <body>
-    <div id="content">
+    <div class="container">
         <div class="widget">
             <?php
             //WE CALL THE PHP INFORMATIONS
-                include 'widget.php';?>
-                <h2><a href="<?php print $city_name; ?>">City</h2>
-                <h1><a href="<?php print $Temperature; ?>">Temperature</h1>
-                <h2><a href="<?php print $Main; ?>">Weather</h2>
-                <h3><a href="<?php print $Description; ?>">description</h3>
+                include 'widget.php'
+            ;?>
+            <div class="details">
+                <div class="city"><?php echo $city_name; ?></div>
+                <div class="temperature"><?php echo $temperature; ?>°C</div>
+                <div class="main"><?php echo $main; ?></div>
+                <div class="description"><?php print $description; ?></div>
+            </div>
         </div>
     </div>  
 </body>

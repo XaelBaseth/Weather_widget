@@ -43,13 +43,4 @@ $temperature = $weather_data['main']['temp'];
 $main = $weather_data['weather']['0']['main'];
 $description = $weather_data['weather']['0']['description'];
 
-/*
-WE PASS THE USEFUL DATA IN JSON
-IN ORDER TO READ THEM WITH AJAX
-IN THE JAVASCRIPT FILE
- */
-$data = ['Temperature' => $temperature, 'Main' => $main, 'Description' => $description];
-echo json_encode($data);
-
 ?>
-
