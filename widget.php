@@ -15,7 +15,7 @@ Author URI: https://github.com/XaelBaseth
 */
 
 //API KEY - don't show
-$api_key = '5ed0bd420a7545baa7db65fbba125ba9';
+$api_key = '';
 
 /*
 GET THE COORDINATES FROM THE CITY NAME
