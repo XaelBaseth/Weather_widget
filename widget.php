@@ -15,14 +15,14 @@ Author URI: https://github.com/XaelBaseth
 */
 
 //API KEY - don't show
-$api_key = '';
+$api_key = '5ed0bd420a7545baa7db65fbba125ba9';
 
 /*
 GET THE COORDINATES FROM THE CITY NAME
 LATITUDE AND LONGITUDE
 WITH THE GEOCODING API
 */
-$city_name = 'Paris';
+$city_name = 'Bangui';
 $geo_api_url = "http://api.openweathermap.org/geo/1.0/direct?q={$city_name}&limit=1&appid={$api_key}";
 
 $location_data = json_decode(file_get_contents($geo_api_url), true);
